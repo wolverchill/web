@@ -1,0 +1,128 @@
+/* Estilos para OverlayContent */
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.text-frame {
+  border-radius: var(--border-radius);
+  /* padding: var(--container-padding); */
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  box-shadow: none;
+  pointer-events: auto;
+}
+.text-content {
+  width: 100%;
+  color: var(--color-white);
+  font-size: var(--font-normal);
+  line-height: 1.5;
+  word-break: break-word;
+  overflow: hidden;
+  text-align: center;
+}
+.text-content > div {
+  text-align: center;
+  font-size: var(--font-subtitle);
+  text-shadow:
+    0 0 8px var(--color-bg),
+    0 0 16px var(--color-bg),
+    0 0 24px var(--color-bg);
+}
+.section-link-a {
+  color: #85c1e9 !important;
+  text-decoration: underline;
+}
+.section-link {
+}
+.section-title-group {
+  position: relative;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+  font-size: var(--font-title-group, 1.5em);
+  font-weight: bold;
+  text-align: center;
+}
+.section-title-groupB {
+  position: relative;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  font-size: var(--font-title-group, 1.5em);
+  font-weight: bold;
+  text-align: center;
+}
+.section-title {
+  position: relative;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+}
+.section-title-name {
+  font-size: var(--font-title);
+  line-height: 1.1;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.section-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+.section-underline {
+  height: 3px;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-underline-group {
+  width: 100%;
+  height: 0.275em;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+.section-underline-title {
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.section-underline-top {
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+.section-link-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-link-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 0.3em;
+}
+.section-title-groupC {
+  position: relative;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  font-size: var(--font-title-group, 1.5em);
+  font-weight: bold;
+  text-align: center;
+} 

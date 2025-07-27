@@ -1,0 +1,43 @@
+.footer-bar {
+  width: 100%;
+  background: var(--color-bg);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: 1.5em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+}
+.footer-input {
+  flex: 1 1 60%;
+  padding: 0.5em 1em;
+  border-radius: var(--border-radius);
+  border: none;
+  font-size: var(--font-normal);
+  background: var(--color-light);
+  color: var(--color-bg);
+  height: 1.2em;
+}
+.footer-btn {
+  padding: 0.5em 2em;
+  border-radius: var(--border-radius);
+  border: none;
+  background: var(--color-presentacion);
+  color: var(--color-bg);
+  font-size: var(--font-normal);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  height: 1.2em;
+  display: flex;
+  align-items: center;
+}
+.footer-btn:hover, .footer-btn:focus {
+  background: var(--color-light);
+  color: var(--color-bg);
+  outline: none;
+} 

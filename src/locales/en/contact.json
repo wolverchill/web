@@ -1,0 +1,11 @@
+{
+  "send_message": "Send Message",
+  "message_label": "Message:",
+  "message_placeholder": "Write your message here...",
+  "cancel": "Cancel",
+  "send": "Send",
+  "sending": "Sending...",
+  "success": "Email sent successfully",
+  "error": "Error sending email",
+  "connection_error": "Connection error"
+} 

@@ -1,0 +1,27 @@
+{
+  "sections": [
+    {
+      "GROUP": "presentation",
+      "SECTION": "logo",
+      "TEMPLATE": "logo",
+      "COLOR": "#53EAFD",
+      "STYLE": "text"
+    },
+    {
+      "GROUP": "presentation",
+      "SECTION": "aboutme",
+      "STYLE": "titleName",
+      "COLOR": "#53EAFD",
+      "IMAGE": "logoed",
+      "CONTENT": "Wolver Chill",
+      "ID": "presentation"
+    },
+    {
+      "GROUP": "presentation",
+      "SECTION": "aboutme",
+      "STYLE": "aboutme",
+      "COLOR": "#ED6AFF",
+      "CONTENT": "jjj"
+    }
+  ]
+}
